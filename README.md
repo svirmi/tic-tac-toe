@@ -18,7 +18,7 @@ docker run -it --rm -p 8000:8000 -u $(id -u ${USER}):$(id -g ${USER}) -v ${PWD}:
 git config --global user.email "spam_box@some.edu"
 git config --global user.name "spam_me"
 cd ..
-gatsby new blog
+gatsby new project
 ```
 
 ### 2. To start developing:
