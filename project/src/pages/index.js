@@ -1,8 +1,11 @@
 import React from "react"
-import { Button, Row, Col } from "antd";
-import Footer from "../layout/footer";
-
 import 'antd/dist/antd.css';
+
+import { Button, Row, Col } from 'antd';
+import AntHeader from "../layout/header";
+import AntFooter from "../layout/footer";
+
+
 
 class IndexPage extends React.Component {
 
@@ -42,6 +45,7 @@ class IndexPage extends React.Component {
     render() {
         return (
             <div>
+                <AntHeader/>
                 <Row>
                     <Col span={24} style={{textAlign: 'center'}}>
                         <h1>Hello my world!</h1>
@@ -62,7 +66,7 @@ class IndexPage extends React.Component {
                     <Col span={6}>col-6</Col>
                     <Col span={6}>col-6</Col>
                 </Row>
-                <Footer/>
+                <AntFooter/>
             </div>
         )
     }

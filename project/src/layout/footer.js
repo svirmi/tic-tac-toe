@@ -1,11 +1,14 @@
 import React from "react";
 
-const Footer = () => {
+import { Layout } from 'antd';
+const { Footer } = Layout;
+
+const AntFooter = () => {
     return (
-        <footer>
+        <Footer>
             <p>This is footer</p>
-        </footer>
+        </Footer>
     )
 }
 
-export default Footer
+export default AntFooter
