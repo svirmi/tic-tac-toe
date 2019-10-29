@@ -130,8 +130,9 @@ const AntHeader = () => {
             <Content
                 extraContent={
                     <img
-                        src="https://gw.alipayobjects.com/mdn/mpaas_user/afts/img/A*KsfVQbuLRlYAAAAAAAAAAABjAQAAAQ/original"
-                        alt="content"
+                        src={'/logo.png'}
+                        alt="tic tac toe logo"
+                        height={120}
                     />
                 }
             >
