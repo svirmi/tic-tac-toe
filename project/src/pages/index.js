@@ -1,7 +1,9 @@
 import React from "react"
+import Game from "../components/tic-tac-toe";
 
-import { Button, Row, Col } from 'antd';
 import AntHeader from "../layout/header";
+
+import { Row, Col } from 'antd';
 
 class IndexPage extends React.Component {
 
@@ -26,14 +28,6 @@ class IndexPage extends React.Component {
         document.removeEventListener('mousedown', this.handleClickOutside);
     }
 
-    handleOpen(cell) {
-
-    }
-
-    handleClose() {
-
-    }
-
     handleClickOutside(event) {
         console.log('clicked')
     }
@@ -42,21 +36,15 @@ class IndexPage extends React.Component {
         return (
             <div>
                 <AntHeader/>
-                <Row justify="center">
-                    <Col span={12}>col-12</Col>
-                    <Col span={12}><Button type="primary" shape="circle" icon="search" /></Col>
-                </Row>
+                <div className="container">
                 <Row>
-                    <Col span={8}>col-8</Col>
+                    <Col span={8}>
+                        <Game/>
+                    </Col>
                     <Col span={8}>col-8</Col>
                     <Col span={8}>col-8</Col>
                 </Row>
-                <Row>
-                    <Col span={6}>col-6</Col>
-                    <Col span={6}>col-6</Col>
-                    <Col span={6}>col-6</Col>
-                    <Col span={6}>col-6</Col>
-                </Row>
+                </div>
             </div>
         )
     }

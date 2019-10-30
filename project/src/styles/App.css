@@ -3,3 +3,47 @@
 header h1 {
     color: whitesmoke;
 }
+.ant-col {
+    text-align: center;
+}
+.container {
+    max-width: 800px;
+    margin: 80px auto;
+}
+
+.game-board {
+    width: 120px;
+    margin: 0 auto;
+}
+
+.square {
+    background: #fff;
+    border: 1px solid #999;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 34px;
+    height: 34px;
+    margin-right: -1px;
+    margin-top: -1px;
+    padding: 0;
+    text-align: center;
+    width: 34px;
+}
+
+.square:focus {
+    outline: none;
+}
+ol, ul {
+    padding-left: 30px;
+}
+
+.board-row:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+.status {
+    margin-bottom: 10px;
+}

@@ -131,7 +131,7 @@ const AntHeader = () => {
                 extraContent={
                     <img
                         src={'/logo.png'}
-                        alt="tic tac toe logo"
+                        alt="min max for tic tac toe"
                         height={120}
                     />
                 }
