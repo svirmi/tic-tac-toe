@@ -117,7 +117,7 @@ const AntHeader = () => {
             style={{
                 border: '1px solid rgb(235, 237, 240)',
             }}
-            subTitle="Using different algorithms"
+            subTitle="With minmax algorithm"
             extra={[
                 <Button key="3">Operation</Button>,
                 <Button key="2">Operation</Button>,
