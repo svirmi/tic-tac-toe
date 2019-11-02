@@ -17,11 +17,11 @@ class Board extends React.Component {
 
             /*
               will be during game play:
-            [
+                [
                 'O', null, 'X',
                 'X', 'X', 'O',
                 'O', null, null,
-            ]
+                ]
             */
         };
     }
