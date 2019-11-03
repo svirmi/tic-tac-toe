@@ -1,8 +1,5 @@
 @import '~antd/dist/antd.css';
 
-header h1 {
-    color: whitesmoke;
-}
 .ant-col {
     text-align: center;
 }
